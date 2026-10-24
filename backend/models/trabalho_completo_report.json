@@ -1,0 +1,62 @@
+{
+  "trabalho_aderente": true,
+  "requisitos_trabalho_md": [
+    "Previsão (Regressão)",
+    "Classificação (Aprendizado Supervisionado)",
+    "Agrupamento/Clusterização (Aprendizado não Supervisionado)"
+  ],
+  "regressao": {
+    "modelo": "Regressão Linear Múltipla com StandardScaler",
+    "r2_score": 0.7184,
+    "mae_brl": 5017167.13,
+    "rmse_brl": 14544423.67,
+    "mse": 211540260010550.8,
+    "coeficientes": {
+      "Valor_Original": 10752012.46,
+      "duracao_planejada_dias": 627458.89,
+      "tx_adit_geral_5a": -450181.69,
+      "Capital_Social_Receita": -320953.32,
+      "qtd_cont_5a_forn": -105625.65
+    },
+    "intercepto": 4767243.21
+  },
+  "clusterizacao": {
+    "algoritmo": "K-Means com K-Means++ e StandardScaler",
+    "k_otimo": 3,
+    "inercia_wcss": 18828.75,
+    "silhouette_score": 0.6949,
+    "metodo_escolha_k": "Método do Cotovelo e Coeficiente de Silhueta (Aula 4.1)",
+    "perfis_clusters": [
+      {
+        "cluster_id": 0,
+        "nome": "Cluster 0: Fornecedores de Operação Padrão / Médio Risco",
+        "quantidade_contratos": 5529,
+        "percentual_base": 95.5,
+        "taxa_media_aditivos": 59.1,
+        "valor_original_medio_brl": 25405096.26,
+        "duracao_media_dias": 1095.7,
+        "taxa_historica_aditivo": 0.4
+      },
+      {
+        "cluster_id": 1,
+        "nome": "Cluster 1: Fornecedores Críticos / Altíssimo Valor",
+        "quantidade_contratos": 241,
+        "percentual_base": 4.2,
+        "taxa_media_aditivos": 50.6,
+        "valor_original_medio_brl": 46617515.82,
+        "duracao_media_dias": 667.7,
+        "taxa_historica_aditivo": 74.9
+      },
+      {
+        "cluster_id": 2,
+        "nome": "Cluster 2: Fornecedores Recorrentes / Serviços Contínuos",
+        "quantidade_contratos": 17,
+        "percentual_base": 0.3,
+        "taxa_media_aditivos": 52.9,
+        "valor_original_medio_brl": 3960211.08,
+        "duracao_media_dias": 467.4,
+        "taxa_historica_aditivo": 1.3
+      }
+    ]
+  }
+}

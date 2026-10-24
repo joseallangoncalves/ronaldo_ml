@@ -1,0 +1,92 @@
+{
+  "tipo_fundamento_licitacao": [
+    "Licitacao_Geral_Art28",
+    "Registro_Precos"
+  ],
+  "tipo_ult_adit": [
+    "Nenhum",
+    "Prazo",
+    "Prazo_e_Valor",
+    "Valor"
+  ],
+  "Porte_Empresa": [
+    "01 - Microempresa (ME)",
+    "03 - Empresa de Pequeno Porte (EPP)",
+    "05 - Demais (Médio / Grande Porte)",
+    "Não Encontrado / Exterior"
+  ],
+  "estatisticas_numericas": {
+    "Valor_Original": {
+      "min": 0.01,
+      "mediana": 3428842.62,
+      "max": 1706915310.49,
+      "media": 24771236.46
+    },
+    "duracao_planejada_dias": {
+      "min": 0.0,
+      "mediana": 1094.0,
+      "max": 2312.0,
+      "media": 1079.3
+    },
+    "qtd_cont_forn_tot": {
+      "min": 0.0,
+      "mediana": 2.0,
+      "max": 7065.0,
+      "media": 40.72
+    },
+    "qtd_cont_5a_forn": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 5922.0,
+      "media": 20.84
+    },
+    "qtd_adit_prazo_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 69.0,
+      "media": 0.33
+    },
+    "tx_adit_prazo_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 1.0,
+      "media": 0.03
+    },
+    "qtd_adit_pv_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 55.0,
+      "media": 0.27
+    },
+    "tx_adit_pv_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 1.0,
+      "media": 0.02
+    },
+    "qtd_adit_val_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 33.0,
+      "media": 0.15
+    },
+    "tx_adit_val_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 1.0,
+      "media": 0.02
+    },
+    "tx_adit_geral_5a": {
+      "min": 0.0,
+      "mediana": 0.0,
+      "max": 1.0,
+      "media": 0.04
+    },
+    "Capital_Social_Receita": {
+      "min": 0.0,
+      "mediana": 5000000.0,
+      "max": 65000000000.0,
+      "media": 351496883.78
+    }
+  }
+}

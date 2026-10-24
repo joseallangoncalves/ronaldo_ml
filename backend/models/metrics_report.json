@@ -1,0 +1,120 @@
+{
+  "modelo_campeao": "Random Forest",
+  "justificativa_escolha": "Modelo com maior equilíbrio de Sensibilidade (Recall) e F1-Score no teste cego, mitigando perdas por Falsos Negativos.",
+  "metricas_campeao": {
+    "modelo": "Random Forest",
+    "cv_f1_mean": 0.7605,
+    "cv_f1_std": 0.0054,
+    "matriz_confusao": {
+      "VP": 545,
+      "VN": 281,
+      "FP": 197,
+      "FN": 135
+    },
+    "acuracia": 0.7133,
+    "precisao": 0.7345,
+    "recall_sensibilidade": 0.8015,
+    "especificidade": 0.5879,
+    "f1_score": 0.7665,
+    "f1_macro": 0.6976,
+    "f1_weighted": 0.7096,
+    "roc_auc": 0.7714
+  },
+  "comparativo_modelos": [
+    {
+      "modelo": "Regressão Logística",
+      "cv_f1_mean": 0.7283,
+      "cv_f1_std": 0.0109,
+      "matriz_confusao": {
+        "VP": 523,
+        "VN": 202,
+        "FP": 276,
+        "FN": 157
+      },
+      "acuracia": 0.6261,
+      "precisao": 0.6546,
+      "recall_sensibilidade": 0.7691,
+      "especificidade": 0.4226,
+      "f1_score": 0.7072,
+      "f1_macro": 0.595,
+      "f1_weighted": 0.6145,
+      "roc_auc": 0.6918
+    },
+    {
+      "modelo": "KNN (k=5)",
+      "cv_f1_mean": 0.7227,
+      "cv_f1_std": 0.0083,
+      "matriz_confusao": {
+        "VP": 485,
+        "VN": 279,
+        "FP": 199,
+        "FN": 195
+      },
+      "acuracia": 0.6598,
+      "precisao": 0.7091,
+      "recall_sensibilidade": 0.7132,
+      "especificidade": 0.5837,
+      "f1_score": 0.7111,
+      "f1_macro": 0.6486,
+      "f1_weighted": 0.6595,
+      "roc_auc": 0.7159
+    },
+    {
+      "modelo": "Árvore de Decisão (Gini)",
+      "cv_f1_mean": 0.7285,
+      "cv_f1_std": 0.0157,
+      "matriz_confusao": {
+        "VP": 516,
+        "VN": 298,
+        "FP": 180,
+        "FN": 164
+      },
+      "acuracia": 0.7029,
+      "precisao": 0.7414,
+      "recall_sensibilidade": 0.7588,
+      "especificidade": 0.6234,
+      "f1_score": 0.75,
+      "f1_macro": 0.692,
+      "f1_weighted": 0.7021,
+      "roc_auc": 0.743
+    },
+    {
+      "modelo": "Random Forest",
+      "cv_f1_mean": 0.7605,
+      "cv_f1_std": 0.0054,
+      "matriz_confusao": {
+        "VP": 545,
+        "VN": 281,
+        "FP": 197,
+        "FN": 135
+      },
+      "acuracia": 0.7133,
+      "precisao": 0.7345,
+      "recall_sensibilidade": 0.8015,
+      "especificidade": 0.5879,
+      "f1_score": 0.7665,
+      "f1_macro": 0.6976,
+      "f1_weighted": 0.7096,
+      "roc_auc": 0.7714
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "cv_f1_mean": 0.7637,
+      "cv_f1_std": 0.0075,
+      "matriz_confusao": {
+        "VP": 534,
+        "VN": 291,
+        "FP": 187,
+        "FN": 146
+      },
+      "acuracia": 0.7124,
+      "precisao": 0.7406,
+      "recall_sensibilidade": 0.7853,
+      "especificidade": 0.6088,
+      "f1_score": 0.7623,
+      "f1_macro": 0.6992,
+      "f1_weighted": 0.7102,
+      "roc_auc": 0.7656
+    }
+  ]
+}

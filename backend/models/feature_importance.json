@@ -1,0 +1,82 @@
+[
+  {
+    "feature": "Valor_Original",
+    "importance_mean": 0.07573,
+    "importance_std": 0.00959
+  },
+  {
+    "feature": "duracao_planejada_dias",
+    "importance_mean": 0.07349,
+    "importance_std": 0.00938
+  },
+  {
+    "feature": "Natureza_Juridica",
+    "importance_mean": 0.01002,
+    "importance_std": 0.00469
+  },
+  {
+    "feature": "tipo_ult_adit",
+    "importance_mean": 0.00933,
+    "importance_std": 0.00334
+  },
+  {
+    "feature": "Capital_Social_Receita",
+    "importance_mean": 0.00803,
+    "importance_std": 0.00504
+  },
+  {
+    "feature": "qtd_cont_5a_forn",
+    "importance_mean": 0.00509,
+    "importance_std": 0.00175
+  },
+  {
+    "feature": "Porte_Empresa",
+    "importance_mean": 0.00259,
+    "importance_std": 0.00154
+  },
+  {
+    "feature": "qtd_adit_val_5a",
+    "importance_mean": 0.00121,
+    "importance_std": 0.00069
+  },
+  {
+    "feature": "tx_adit_geral_5a",
+    "importance_mean": 0.0006,
+    "importance_std": 0.00103
+  },
+  {
+    "feature": "tx_adit_val_5a",
+    "importance_mean": 0.00043,
+    "importance_std": 0.0007
+  },
+  {
+    "feature": "qtd_adit_prazo_5a",
+    "importance_mean": 0.00035,
+    "importance_std": 0.0019
+  },
+  {
+    "feature": "qtd_cont_forn_tot",
+    "importance_mean": 9e-05,
+    "importance_std": 0.00243
+  },
+  {
+    "feature": "tipo_fundamento_licitacao",
+    "importance_mean": 0.0,
+    "importance_std": 0.0
+  },
+  {
+    "feature": "tx_adit_prazo_5a",
+    "importance_mean": -0.00017,
+    "importance_std": 0.00108
+  },
+  {
+    "feature": "qtd_adit_pv_5a",
+    "importance_mean": -0.00095,
+    "importance_std": 0.0006
+  },
+  {
+    "feature": "tx_adit_pv_5a",
+    "importance_mean": -0.00259,
+    "importance_std": 0.00095
+  }
+]
